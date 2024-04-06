@@ -1,0 +1,120 @@
+{
+  "test_cases": [
+    {
+      "input_expression": "2+3*4",
+      "expected_output": "234*+"
+    },
+    {
+      "input_expression": "(5 - 3) * (6 / 2)",
+      "expected_output": "53-62/*"
+    },
+    {
+      "input_expression": "8 + 2 * (9 / 3)",
+      "expected_output": "8293/*+"
+    },
+    {
+      "input_expression": "3 * (4 + 5) / 2",
+      "expected_output": "345+*2/"
+    },
+    {
+      "input_expression": "5 * (8 - (3 + 2)) / 5",
+      "expected_output": "5832+-*5/"
+    },
+    {
+      "input_expression": "(7 + 3 * (2 + 1)) / (4 - 2)",
+      "expected_output": "7321+*+42-/"
+    },
+    {
+      "input_expression": "2 * (5 + 3) - 4 / (2 + 1)",
+      "expected_output": "253+*421+/-"
+    },
+    {
+      "input_expression": "4 * (3 + 7)",
+      "expected_output": "437+*"
+    },
+    {
+      "input_expression": "(9 - 2) * (6 + 3)",
+      "expected_output": "92-63+*"
+    },
+    {
+      "input_expression": "8 + (4 * 2) - (3 / 1)",
+      "expected_output": "842*+31/-"
+    },
+    {
+      "input_expression": "(5 + 4) * (7 - 2)",
+      "expected_output": "54+72-*"
+    },
+    {
+      "input_expression": "10 * (2 + (4 * 3)) / 6",
+      "expected_output": "10243*+*6/"
+    },
+    {
+      "input_expression": "3 * (6 + 2) - (7 / 2)",
+      "expected_output": "362+*72/-"
+    },
+    {
+      "input_expression": "(8 + 5) * (9 - 4) / 2",
+      "expected_output": "85+94-*2/"
+    },
+    {
+      "input_expression": "(5 * 3) - (4 / 2)",
+      "expected_output": "53*42/-"
+    },
+    {
+      "input_expression": "6 * (9 - 2) / (8 + 1)",
+      "expected_output": "692-*81+/"
+    },
+    {
+      "input_expression": "7 + (6 * (8 - 3)) / 5",
+      "expected_output": "7683-*5/+"
+    },
+    {
+      "input_expression": "(4 * (6 + 2)) - 5",
+      "expected_output": "462+*5-"
+    },
+    {
+      "input_expression": "(9 - (7 + 3)) * (5 + 1)",
+      "expected_output": "973+-51+*"
+    },
+    {
+      "input_expression": "2 + (8 * (9 - 6)) / 4",
+      "expected_output": "2896-*4/+"
+    },
+    {
+      "input_expression": "(6 * (3 + 2)) - (9 / 3)",
+      "expected_output": "632+*93/-"
+    },
+    {
+      "input_expression": "(4 * 3) / (2 + 1)",
+      "expected_output": "43*21+/"
+    },
+    {
+      "input_expression": "8 - (5 * (7 - 2)) / 3",
+      "expected_output": "8572-*3/-"
+    },
+    {
+      "input_expression": "(6 * (4 + 2)) - (8 / 2)",
+      "expected_output": "642+*82/-"
+    },
+    {
+      "input_expression": "9 + (7 * (5 - 3)) / 4",
+      "expected_output": "9753-*4/+"
+    },
+    {
+      "input_expression": "(3 * (9 + 1)) / (6 - 2)",
+      "expected_output": "391+*62-/"
+    },
+    {
+      "input_expression": "7 - (8 * (6 - 4)) / 2",
+      "expected_output": "7864-*2/-"
+    },
+    {
+      "input_expression": "   x^y /( 5*  z)+      2",
+      "expected_output": "xy^5z* / 2+ "
+    },
+    {
+      "expected_output": "abc*+de*+",
+      "input_expression": "((a+(b*c))+(d*e)) "
+    }
+  ]
+}

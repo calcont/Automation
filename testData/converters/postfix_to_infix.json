@@ -1,0 +1,88 @@
+{
+  "test_cases" : [
+    {
+      "input_expression" : "abc++",
+      "expected_output" : "(a+(b+c))"
+    },
+    {
+      "input_expression" : "a   b      c  +  +",
+      "expected_output" : "(a+(b+c))"
+    },
+    {
+      "input_expression": "ab*c+",
+      "expected_output": "((a*b)+c) "
+    },
+    {
+      "input_expression": "abc^-",
+      "expected_output": "(a-(b^c))"
+    },
+    {
+      "input_expression": "23+",
+      "expected_output": "(2+3)"
+    },
+    {
+      "input_expression": "53*",
+      "expected_output": "(5*3)"
+    },
+    {
+      "input_expression": "ab+",
+      "expected_output": "(a+b)"
+    },
+    {
+      "input_expression": "abc++",
+      "expected_output": "(a+(b+c))"
+    },
+    {
+      "input_expression": "ab*c+",
+      "expected_output": "((a*b)+c)"
+    },
+    {
+      "input_expression": "ab+cd+*",
+      "expected_output": "((a+b)*(c+d))"
+    },
+    {
+      "input_expression": "abc+*d-",
+      "expected_output": "((a*(b+c))-d)"
+    },
+    {
+      "input_expression": "ab/cd*+e-",
+      "expected_output": "(((a/b)+(c*d))-e)"
+    },
+    {
+      "input_expression": "abc*+de*+",
+      "expected_output": "((a+(b*c))+(d*e)) "
+    },
+    {
+      "input_expression": "abcd^^+e^",
+      "expected_output": "((a+(b^(c^d)))^e)"
+    },
+    {
+      "input_expression": "ab+c*de/-",
+      "expected_output": "(((a+b)*c)-(d/e)) "
+    },
+    {
+      "input_expression": "abcde++++",
+      "expected_output": "(a+(b+(c+(d+e))))"
+    },
+    {
+      "input_expression": "ab+cd++ef+*",
+      "expected_output": "(((a+b)+(c+d))* (e+f))"
+    },
+    {
+      "input_expression": "ab+c*de+f*/",
+      "expected_output": "(((a+b)*c)/((d+e)*f))"
+    },
+    {
+      "input_expression": "abc*+d*ef+/",
+      "expected_output": "(((a+(b*c))*d)/(e+f))"
+    },
+    {
+      "input_expression": "abcd**+e/",
+      "expected_output": "((a+(b*(c*d)))/e)"
+    },
+    {
+      "input_expression": "abc*+de/*",
+      "expected_output": "((a+(b*c))*(d/e))"
+    }
+  ]
+}

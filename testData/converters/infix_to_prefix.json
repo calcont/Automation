@@ -1,0 +1,116 @@
+{
+  "test_cases": [
+    {
+      "input_expression": "2 + 3",
+      "expected_output": "+ 2 3"
+    },
+    {
+      "input_expression": "5 - 3 * 4",
+      "expected_output": "- 5 * 3 4"
+    },
+    {
+      "input_expression": "(8 + 2) / (9 * 3)",
+      "expected_output": "/ + 8 2 * 9 3"
+    },
+    {
+      "input_expression": "3 * (4 + 5) / 2",
+      "expected_output": "/ * 3 + 4 5 2"
+    },
+    {
+      "input_expression": "5 * (8 - (3 + 2)) / 5",
+      "expected_output": "/ * 5 - 8 + 3 2 5"
+    },
+    {
+      "input_expression": "(7 + 3 * (2 + 1)) / (4 - 2)",
+      "expected_output": "/ + 7 * 3 + 2 1 - 4 2"
+    },
+    {
+      "input_expression": "2 * (5 + 3) - 4 / (2 + 1)",
+      "expected_output": "- * 2 + 5 3 / 4 + 2 1"
+    },
+    {
+      "input_expression": "3 + 4 * 2 / (1 - 5)",
+      "expected_output": "+ 3 / * 4 2 - 1 5"
+    },
+    {
+      "input_expression": "(1 + 2) * 3 - 4 / (5 + 6)",
+      "expected_output": "- * + 1 2 3 / 4 + 5 6"
+    },
+    {
+      "input_expression": "1 + 2 * (3 + 4) - 5 / (6 + 7) * 8",
+      "expected_output": "-+1 * 2 +3 4 */ 5 +6 7 8"
+    },
+    {
+      "input_expression": "(2 * (3 + 4)) - ((5 + 6) / 7)",
+      "expected_output": "- * 2 + 3 4 / + 5 6 7"
+    },
+    {
+      "input_expression": "2 * (3 + 4 * (5 - 6)) / (7 - 8) + 9",
+      "expected_output": "+/*2 +3 * 4 -5 6 -7 8 9"
+    },
+    {
+      "input_expression": "(1 + 2) * (3 - (4 + 5)) + (6 - 7) * 8",
+      "expected_output": "+*+1 2 -3 +4 5 * -6 7 8"
+    },
+    {
+      "input_expression": "1 + 2 * (3 - 4 / (5 + 6)) + (7 * 8) / 9",
+      "expected_output": "++1 * 2 -3 / 4 +5 6 / *7 8 9"
+    },
+    {
+      "input_expression": "(2 + 3) * (4 - 5) + (6 / 7)",
+      "expected_output": "+ * + 2 3 - 4 5 / 6 7"
+    },
+    {
+      "input_expression": "2 * ((3 + 4) / 5) - (6 + 7) * 8",
+      "expected_output": "-*2 /+3 4 5 * +6 7 8"
+    },
+    {
+      "input_expression": "(a - b) * c",
+      "expected_output": "* - a b c"
+    },
+    {
+      "input_expression": "a ^ b ^ c",
+      "expected_output": "^ ^ a b c"
+    },
+    {
+      "input_expression": "a / b * c",
+      "expected_output": "* / a b c"
+    },
+    {
+      "input_expression": "a ^ (b + c)",
+      "expected_output": "^ a + b c"
+    },
+    {
+      "input_expression": "-(a + b)",
+      "expected_output": "- + a b"
+    },
+    {
+      "input_expression": "a * b + c",
+      "expected_output": "+ * a b c"
+    },
+    {
+      "input_expression": "(a + b) * c - d",
+      "expected_output": "- * + a b c d"
+    },
+    {
+      "input_expression": "a ^ b / c",
+      "expected_output": "/ ^ a b c"
+    },
+    {
+      "input_expression": "a * (b - c)",
+      "expected_output": "* a - b c"
+    },
+    {
+      "input_expression": "-(a * b)",
+      "expected_output": "- * a b"
+    },
+    {
+      "input_expression": "((2 * 3) + (4 / 5)) * (6 - (7 + 8))",
+      "expected_output": "*+*2 3 /4 5 -6 +7 8"
+    },
+    {
+      "input_expression": "a+((b-c)-(d-e))",
+      "expected_output": "+a--bc-de"
+    }
+  ]
+}

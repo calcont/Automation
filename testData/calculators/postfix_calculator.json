@@ -1,0 +1,226 @@
+{
+  "test_cases": [
+    {
+      "input_expression": "5 3 + 2 *",
+      "expected_output": "16"
+    },
+    {
+      "input_expression": "4 5 2 3 + * -",
+      "expected_output": "-21"
+    },
+    {
+      "input_expression": "8 4 / 9 3 * +",
+      "expected_output": "29"
+    },
+    {
+      "input_expression": "2 3 1 * + 9 -",
+      "expected_output": "-4"
+    },
+    {
+      "input_expression": "1 2 + 3 * 9 /",
+      "expected_output": "1"
+    },
+    {
+      "input_expression": "6 2 / 5 + 8 *",
+      "expected_output": "64"
+    },
+    {
+      "input_expression": "2 3 * 4 + 5 -",
+      "expected_output": "5"
+    },
+    {
+      "input_expression": "7 3 / 6 4 / -",
+      "expected_output": "0.833"
+    },
+    {
+      "input_expression": "9 2 * 6 + 1 -",
+      "expected_output": "23"
+    },
+    {
+      "input_expression": "5 2 3 * + 8 /",
+      "expected_output": "1.375"
+    },
+    {
+      "input_expression": "2 7 + 3 * 4 -",
+      "expected_output": "23"
+    },
+    {
+      "input_expression": "6 2 * 3 - 5 +",
+      "expected_output": "14"
+    },
+    {
+      "input_expression": "3 9 + 4 * 7 /",
+      "expected_output": "6.857"
+    },
+    {
+      "input_expression": "8 5 * 3 + 7 -",
+      "expected_output": "36"
+    },
+    {
+        "input_expression": "4 2 3 * 1 + +",
+      "expected_output": "11"
+    },
+    {
+      "input_expression": "9 2 3 * + 6 /",
+      "expected_output": "2.5"
+    },
+    {
+      "input_expression": "1 5 + 3 * 2 -",
+      "expected_output": "16"
+    },
+    {
+      "input_expression": "4 8 / 7 * 2 -",
+      "expected_output": "1.5"
+    },
+    {
+      "input_expression": "5 1 2 + 4 * + 3 -",
+      "expected_output": "14"
+    },
+    {
+      "input_expression": "3 1 2 * + 7 8 + -",
+      "expected_output": "-10"
+    },
+    {
+      "input_expression": "9 4 / 5 + 6 *",
+      "expected_output": "43.5"
+    },
+    {
+      "input_expression": "7 2 3 * + 4 -",
+      "expected_output": "9"
+    },
+    {
+      "input_expression": "6 8 / 4 + 2 -",
+      "expected_output": "2.75"
+    },
+    {
+      "input_expression": "2 3 4 * + 8 /",
+      "expected_output": "1.75"
+    },
+    {
+      "input_expression": "4 5 * 6 2 / -",
+      "expected_output": "17"
+    },
+    {
+      "input_expression": "8 3 + 7 * 5 /",
+      "expected_output": "15.4"
+    },
+    {
+      "input_expression": "3 2 1 * + 9 -",
+      "expected_output": "-4"
+    },
+    {
+      "input_expression": "7 4 3 * + 1 -",
+      "expected_output": "18"
+    },
+    {
+      "input_expression": "5 8 / 2 * 4 +",
+      "expected_output": "5.25"
+    },
+    {
+      "input_expression": "6 2 * 8 + 3 -",
+      "expected_output": "17"
+    },
+    {
+      "input_expression": "4 7 + 2 * 9 /",
+      "expected_output": "2.444"
+    }
+    ],
+  "test_cases_with_spaces": [
+    {
+      "input_expression": "7 8 * 3 2 * /",
+      "expected_output": "9.333"
+    },
+    {
+      "input_expression": "4 9 + 2 * 3 -",
+      "expected_output": "23"
+    },
+    {
+      "input_expression": "6 1 3 * + 9 -",
+      "expected_output": "0"
+    },
+    {
+      "input_expression": "3 2 * 4 1 * -",
+      "expected_output": "2"
+    },
+    {
+      "input_expression": "12 4 + 3 *",
+      "expected_output": "48"
+    },
+    {
+      "input_expression": "8 56 * 7 +",
+      "expected_output": "455"
+    },
+    {
+      "input_expression": "95 3 / 27 4 * +",
+      "expected_output": "139.667 "
+    },
+    {
+      "input_expression": "23 17 - 5 *",
+      "expected_output": "30"
+    },
+    {
+      "input_expression": "68 23 / 4 +",
+      "expected_output": "6.957"
+    },
+    {
+      "input_expression": "123 45 - 67 *",
+      "expected_output": "5,226"
+    },
+    {
+      "input_expression": "45 18 + 6 9 * -",
+      "expected_output": "9"
+    },
+    {
+      "input_expression": "32 7 15 * +",
+      "expected_output": "137"
+    },
+    {
+      "input_expression": "45 2 * 67 + 13 /",
+      "expected_output": "12.077"
+    },
+    {
+      "input_expression": "123 7 / 89 34 * -",
+      "expected_output": "-3008.429"
+    },
+    {
+      "input_expression": "67 98 12 / * 34 -",
+      "expected_output": "513.167"
+    },
+    {
+      "input_expression": "87 34 56 + * 12 /",
+      "expected_output": "652.5"
+    },
+    {
+      "input_expression": "123 456 + 789 -",
+      "expected_output": "-210"
+    },
+    {
+      "input_expression": "234 56 - 78 +",
+      "expected_output": "256"
+    },
+    {
+      "input_expression": "345 87 * 23 /",
+      "expected_output": "1,305"
+    },
+    {
+      "input_expression": "56 34 23 * + 78 -",
+      "expected_output": "760"
+    },
+    {
+      "input_expression": "456 123 45 - * 67 +",
+      "expected_output": "35,635"
+    },
+    {
+      "input_expression": "987 654 321 - * 123 +",
+      "expected_output": "328,794"
+    },
+    {
+      "input_expression": "9876 5432 - 1234 +",
+      "expected_output": "5,678"
+    },
+    {
+      "input_expression": "98765 43210 -",
+      "expected_output": "55555"
+    }
+  ]
+}

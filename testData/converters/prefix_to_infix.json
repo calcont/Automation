@@ -1,0 +1,40 @@
+{
+  "test_cases" : [
+    {
+      "input_expression" : "+AB",
+      "expected_output" : "(A+B)  "
+    },
+    {
+      "input_expression": "*+abc",
+      "expected_output": "((a+b)*c)"
+    },
+    {
+      "input_expression": "+a*b+cd",
+      "expected_output": "(a+(b*(c+d)))"
+    },
+    {
+      "input_expression": "*-A/BC-/AKL",
+      "expected_output": "((A-(B/C))*((A/K)-L))"
+    },
+    {
+      "input_expression": "+ 4 * 8 3",
+      "expected_output": "(4+(8*3))"
+    },
+    {
+      "input_expression": "* / 6 2 + 1 2",
+      "expected_output": "((6 / 2) * (1 + 2))"
+    },
+    {
+      "input_expression": " ++ 6 9 ^ 4 2",
+      "expected_output": "((6 + 9) + (4 ^ 2)) "
+    },
+    {
+      "input_expression": "+ - + ^ + 3 2 2 3 9 ^ 3 2",
+      "expected_output": "(((((3 + 2) ^ 2) + 3) - 9) + (3 ^ 2))"
+    },
+    {
+      "input_expression": "+ + 6 9 + * 4 2 ^ 4 2",
+      "expected_output": "((6 + 9) + ((4 * 2) + (4 ^ 2)))"
+    }
+  ]
+}

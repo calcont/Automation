@@ -1,0 +1,60 @@
+{
+  "test_cases": [
+    {
+      "input_expression": "+AB",
+      "expected_output": "AB+"
+    },
+    {
+      "input_expression": "*+AB+CD",
+      "expected_output": "AB+CD+*"
+    },
+    {
+      "input_expression": "++ABC",
+      "expected_output": "AB+C+"
+    },
+    {
+      "input_expression": "*A+BC",
+      "expected_output": "ABC+*"
+    },
+    {
+      "input_expression": "*-AB+CD",
+      "expected_output": "AB-CD+*"
+    },
+    {
+      "input_expression": "/+AB*CD",
+      "expected_output": "AB+CD*/"
+    },
+    {
+      "input_expression": "++ A * B C D",
+      "expected_output": "A B C * + D +"
+    },
+    {
+      "input_expression": "+ * A B * C D",
+      "expected_output": "A B * C D * +"
+    },
+    {
+      "input_expression": "+ + + A B C D",
+      "expected_output": "A B + C + D +"
+    },
+    {
+      "input_expression": "*-A/BC-/AKL",
+      "expected_output": "ABC/-AK/L-*"
+    },
+    {
+      "input_expression": "*-a/bc-/ade",
+      "expected_output": "abc/-ad/e-*"
+    },
+    {
+      "input_expression": "+ 2 3",
+      "expected_output": "2 3 +"
+    },
+    {
+      "input_expression": "* 4 / 5 6",
+      "expected_output": "4 5 6 / *"
+    },
+    {
+      "input_expression": "- 7 * 8 9",
+      "expected_output": "7 8 9 * -"
+    }
+  ]
+}
